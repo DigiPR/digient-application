@@ -69,6 +69,7 @@
           <camunda:formField id="kw" label="Car KW:" type="long" />
           <camunda:formField id="licenseRevocation" label="License Revocation:" type="boolean" defaultValue="false" />
           <camunda:formField id="carPrice" label="Car Price:" type="long" />
+          <camunda:formField id="carId" label="Car Id:" type="string" />
           <camunda:formField id="retention" label="Retention:" type="long" defaultValue="0" />
         </camunda:formData>
       </bpmn:extensionElements>
